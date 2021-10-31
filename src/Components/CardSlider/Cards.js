@@ -15,38 +15,31 @@ const initialState = {
 const slides = [
   {
     title: "Machu Picchu",
-    subtitle: "Peru",
     description: "Adventure is never far away",
-    image:
-      "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: "https://i.imgur.com/3dVUxiW.jpeg",
   },
   {
     title: "Chamonix",
-    subtitle: "France",
-    description: "Let your dreams come true",
+    description: "the spooky dangers lurking ",
     image:
-      "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      "https://cdn.discordapp.com/attachments/902584923372810350/904458901582405673/haloween_boy.jpg",
   },
   {
     title: "Mimisa Rocks",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image:
-      "https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    description: "It's all just a bunch of hocus pocus",
+    image: "https://i.imgur.com/8ll4qZl.jpeg",
   },
   {
-    title: "Four",
-    subtitle: "Australia",
-    description: "A piece of heaven",
-    image:
-      "https://images.unsplash.com/flagged/photo-1564918031455-72f4e35ba7a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    title: "Wild wi",
+    description:
+      "When witches go riding, and black cats are seen, the moon laughs and whispers, ‘tis near Halloween.",
+    image: "https://images.pexels.com/photos/3318614/pexels-photo-3318614.jpeg",
   },
   {
     title: "Fives",
-    subtitle: "Australia",
-    description: "A piece of heaven",
+    description: "It's Halloween; everyone's entitled to one good scare.",
     image:
-      "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      "https://cdn.discordapp.com/attachments/902584923372810350/904458886277373982/168-horror-dress-38-kaku-fancy-dresses-216-original-imaeymkvehkqpzhs.jpeg",
   },
 ];
 
@@ -146,14 +139,8 @@ const Cards = () => {
   return (
     <div
       style={{
-        // display: "flex",
-        // justifyContent: "center",
-        //  alignItems: "center",
         top: "0",
         left: "0",
-        // width: "100%",
-        // height: "100%",
-        // position: "absolute",
       }}
     >
       <div

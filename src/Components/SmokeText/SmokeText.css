@@ -14,27 +14,35 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .add_constestant .buttonstyle {
-  position: absolute;
-  top: 15%;
-  left: 80%;
+  bottom: 7%;
+  /* left: 50%; */
+  right: 43%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
   transform: translate(0, -50%);
   width: 200px;
   height: 50px;
-  background-color: red;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding-top: 8px;
+  color: red;
+  position: fixed;
+  /* padding-top: 8px; */
   border-radius: 5px;
   cursor: pointer;
 }
 
+.add_constestant .btm-img {
+  margin-top: 10px;
+  width: auto;
+  height: 100%;
+}
 .add_constestant .buttonstyle:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 section {
   height: 10px;

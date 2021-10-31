@@ -3,8 +3,8 @@ import API from "../../API/API";
 import "./Modal_css.css";
 import pumpkin from "../images/D.png";
 import { useHistory } from "react-router";
-import {AiOutlineHome} from "react-icons";
-import { AiOutlineChrome } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
+import { MdOutlineArrowForward } from "react-icons/md";
 const Modal = () => {
   const [name, setName] = useState("");
   const [costumeTitle, setCostumeTitle] = useState("");
@@ -12,7 +12,7 @@ const Modal = () => {
   const [city, setCity] = useState("");
   const [country, setCountry] = useState("");
   const { addContestant } = API;
-  const his = useHistory()
+  const his = useHistory();
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, costumeTitle, costumeImgUrl, city, country);
@@ -25,7 +25,7 @@ const Modal = () => {
     }).then((res) => {
       if (res.status === 201) {
         console.log(res);
-        his.push("/home")
+        his.push("/home");
       }
       if (res.status === 400) {
         console.log(res);
@@ -111,13 +111,23 @@ const Modal = () => {
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
               />
-              <div style={{display: "flex", flexDirection:"row"}}>
-              <div className="save_pin" onClick={handleSubmit}>
-                SAVE
-              </div>
-              <div className="save_pin" onClick={()=>{his.push("/home")}}>
-                HOME
-              </div>
+              <div style={{ display: "flex", flexDirection: "row" }}>
+                <div
+                  className="save_pin"
+                  onClick={handleSubmit}
+                  style={{ marginRight: "10px" }}
+                >
+                  SAVE
+                </div>
+                <div
+                  className="save_pin"
+                  onClick={() => {
+                    his.push("/home");
+                  }}
+                >
+                  Home
+                  {/* <MdOutlineArrowForward /> */}
+                </div>
               </div>
             </form>
             {/* <div className="section1">

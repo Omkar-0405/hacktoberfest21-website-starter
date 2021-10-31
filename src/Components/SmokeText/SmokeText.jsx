@@ -3,7 +3,7 @@ import "./SmokeText.css";
 import puff from "./hallo.mp4";
 import audio from "./hallo.wav";
 import { Link } from "react-router-dom";
-
+import loader from "../images/loader.gif";
 const SmokeText = () => {
   const [vanish1, setVanish] = useState(false);
   const [vanish2, setVanish2] = useState(true);
@@ -29,20 +29,19 @@ const SmokeText = () => {
           <source src={puff} type="video/mp4" />
         </video>
       </div>
-      {vanish2 ? " ":
-      <>
-        <div className="add_constestant">
-          <Link to="/add" >
-            <div className="buttonstyle">
-               BE A GHOST            
-            </div>
-          </Link>
-        </div>
-      </>
-      
-      
-      
-      }
+      {vanish2 ? (
+        " "
+      ) : (
+        <>
+          <div className="add_constestant">
+            <Link to="/add">
+              <div className="buttonstyle">
+                BE A GHOST.. <img src={loader} className="btm-img" />
+              </div>
+            </Link>
+          </div>
+        </>
+      )}
 
       {vanish1 ? (
         " "

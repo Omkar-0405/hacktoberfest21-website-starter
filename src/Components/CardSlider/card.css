@@ -45,33 +45,6 @@
   font-size: 4vw;
   font-weight: normal;
 }
-/* 
-  .parallax-outer {
-    position: relative;
-    will-change: transform;
-  }
-  
-  .parallax-inner {
-    position: relative;
-    will-change: transform;
-  }
-  
-  
-  .parallax-outer::after,
-  .parallax-inner::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid lightgreen;
-  }
-  
-  .parallax-outer::after {
-    border: 2px solid orangered;
-    z-index: -1;
-  } */
 
 .slides {
   display: grid;
@@ -116,15 +89,16 @@
 .slideContent {
   width: 300px;
   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   transition: transform 0.5s ease-in-out;
-  opacity: 0.7;
-
+  opacity: 1;
+  color: white;
   display: grid;
   align-content: center;
-
   transform-style: preserve-3d;
   transform: perspective(1000px) translateX(calc(100% * var(--offset)))
     rotateY(calc(-45deg * var(--dir)));
