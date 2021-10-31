@@ -2,11 +2,11 @@ import * as React from "react";
 // import { AiOutlineHeart } from "react-icons/ai";
 // import { AiFillHeart } from "react-icons/ai";
 import "./card.css";
-import {
-  ParallaxProvider,
-  ParallaxBanner,
-  Parallax,
-} from "react-scroll-parallax";
+// import {
+//   ParallaxProvider,
+//   ParallaxBanner,
+//   Parallax,
+// } from "react-scroll-parallax";
 
 const initialState = {
   slideIndex: 0,
