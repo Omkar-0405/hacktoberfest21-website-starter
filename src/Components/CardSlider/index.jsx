@@ -25,11 +25,9 @@ export const CardSlider = (props) => {
     <div
       style={{
         display: "flex-column",
-        //   alignItems: "center",
-        //   justifyContent: "center",
-
         backgroundColor: "black",
-        //   overflow: "hidden",
+        scrollBehavior: "smooth",
+        overflowX: "hidden",
       }}
     >
       <div style={{ paddingTop: "2rem" }}>
