@@ -1,14 +1,30 @@
 # Postman API-First Hacktoberfest for Students: Website starter
 
-<EDIT ME!>
+## Overview
 
-> README.md is a special file in your repo that gives an overview of your project - it is the landing page people see when they interact with your project. Write anything here that will help collaborators get started helping you! Feel free to replace this quote block with any explanation you want. Some things you might want to include:
-> - What the project is
-> - How to set up development environment (dependencies, install instructions, how to run dev server etc.)
-> - Any special contributing instructions
-> - Project roadmap
 
-------
+- This project is developed during Postman Hacktoberfest using API First Approach
+
+
+## About
+- This repository represents the client side code consisting of various attractive UI pages where we can add a contestant, upvote it, 
+  view his/her full details,update his/her info and delete the contestant.
+## Technologies
+
+- ReactJs
+- NodeJS
+
+## Installation
+Go to your command line and execute the following commands
+1. `git clone https://github.com/Omkar-0405/hacktoberfest21-website-starter`
+2. `npm install`
+3. `npm start`
+
+## Contributors
+[Roshni Chauhan](https://github.com/Rosh9532),[Omkar Bhambure](https://github.com/Omkar-0405) ,[Krushna Dahake](https://github.com/krish10k)
+ 
+ ## Deployment
+ Link: https://ghost-arena-halloween.herokuapp.com/
 
 ## Build a website that uses the Halloween Costume Contest API!
 
