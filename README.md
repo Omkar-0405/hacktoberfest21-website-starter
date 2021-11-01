@@ -24,7 +24,7 @@ Go to your command line and execute the following commands
 [Roshni Chauhan](https://github.com/Rosh9532),[Omkar Bhambure](https://github.com/Omkar-0405) ,[Krushna Dahake](https://github.com/krish10k)
  
  ## Deployment
- Link: https://ghost-arena-halloween.herokuapp.com/
+ Link: https://stupefied-austin-40197c.netlify.app/
 
 ## Build a website that uses the Halloween Costume Contest API!
 
