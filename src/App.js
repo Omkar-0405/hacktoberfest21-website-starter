@@ -5,7 +5,6 @@ import { CardSlider } from "./Components/CardSlider";
 import Modal from "./Components/Modal/Modal";
 import SmokeText from "./Components/SmokeText/SmokeText";
 // import Pin from "./components/CardsToView/Pin";
-
 import ViewCon1 from "./Components/ViewCon/ViewCon1";
 const App = () => {
   return (

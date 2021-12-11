@@ -3,8 +3,8 @@ import API from "../../API/API";
 import "./Modal_css.css";
 import pumpkin from "../images/D.png";
 import { useHistory } from "react-router";
-import { AiOutlineHome } from "react-icons/ai";
-import { MdOutlineArrowForward } from "react-icons/md";
+// import { AiOutlineHome } from "react-icons/ai";
+// import { MdOutlineArrowForward } from "react-icons/md";
 const Modal = () => {
   const [name, setName] = useState("");
   const [costumeTitle, setCostumeTitle] = useState("");
